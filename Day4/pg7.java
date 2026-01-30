@@ -1,0 +1,16 @@
+public class pg7{
+    public static void add(double a,double b){
+        double ans=a+b;
+        System.out.println(ans);
+        
+    }
+    public static void add(int a,int b,int c){
+        int ans=a+b+c;
+        System.out.println(ans);
+        
+}
+public static void main(String[]args){
+    add(20.0,30.5);
+    add(10,20,30);
+}
+}
